@@ -5,7 +5,7 @@ def dayUP(df):
             dayup = dayup*(1 - 0.01)
         else:
             dayup = dayup*(1 + df)
-        return dayup
+    return dayup
 dayfactor =0.01
 while dayUP(dayfactor) < 37.18:
     dayfactor += 0.001
