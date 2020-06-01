@@ -34,3 +34,4 @@ def main():
     fillUnivList(uinfo , html)
     printUnivList(uinfo,30)
 main()
+
